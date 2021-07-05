@@ -1,5 +1,6 @@
+using App.Areas.Produtos.Data;
+using App.Areas.Produtos.Interfaces;
 using App.Data;
-using App.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

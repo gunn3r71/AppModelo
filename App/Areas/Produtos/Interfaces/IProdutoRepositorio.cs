@@ -1,6 +1,6 @@
-﻿using App.Models;
+﻿using App.Areas.Produtos.Models;
 
-namespace App.Interfaces
+namespace App.Areas.Produtos.Interfaces
 {
     public interface IProdutoRepositorio
     {

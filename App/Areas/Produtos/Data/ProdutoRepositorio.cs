@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using App.Interfaces;
-using App.Models;
+﻿using App.Areas.Produtos.Interfaces;
+using App.Areas.Produtos.Models;
+using App.Data;
 
-namespace App.Data
+namespace App.Areas.Produtos.Data
 {
     public class ProdutoRepositorio : IProdutoRepositorio
     {
