@@ -39,6 +39,9 @@ namespace App.Areas.Produtos.Controllers
         [Route("Adicionar")]
         public IActionResult Adicionar(Produto produto)
         {
+            produto.Nome = "Mesa";
+            produto.Preco = 200.50M;
+
             _dbContext.Produtos.Add(produto);
             _dbContext.SaveChanges();
             return Ok();
